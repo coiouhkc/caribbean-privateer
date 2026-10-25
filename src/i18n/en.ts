@@ -1,0 +1,78 @@
+/** English is the reference catalog: every other language must define exactly these keys. */
+export const en = {
+  'game.title': 'Pirates of the Caribbean',
+
+  'lang.label': 'Language',
+
+  'hud.gold': 'Gold',
+  'hud.cargo': 'Cargo',
+  'hud.health': 'Ship',
+  'hud.cannons': 'Cannons',
+  'hud.goal': 'Goal: {amount}',
+  'hud.enterPort': 'Enter {port}',
+  'hud.help': 'Help',
+  'hud.minimap': 'Map (tap to sail there)',
+
+  'good.bananas': 'Bananas',
+  'good.fish': 'Fish',
+  'good.cloth': 'Cloth',
+  'good.cocoa': 'Cocoa',
+  'good.spices': 'Spices',
+  'good.tools': 'Tools',
+
+  'portSize.small': 'Village',
+  'portSize.medium': 'Town',
+  'portSize.large': 'Big city',
+
+  'portName.sunnyBay': 'Sunny Bay',
+  'portName.turtleCove': 'Turtle Cove',
+  'portName.coconutHarbor': 'Coconut Harbor',
+  'portName.parrotPoint': 'Parrot Point',
+  'portName.pearlTown': 'Pearl Town',
+  'portName.dolphinPort': 'Dolphin Port',
+  'portName.mangoIsland': 'Mango Island',
+  'portName.seashellBeach': 'Seashell Beach',
+  'portName.starfishVillage': 'Starfish Village',
+  'portName.goldenSands': 'Golden Sands',
+  'portName.lagoonCity': 'Lagoon City',
+  'portName.pelicanRock': 'Pelican Rock',
+
+  'port.inPort': 'In port: {count}',
+  'port.onBoard': 'On board: {count}',
+  'port.buy': 'Buy {price}',
+  'port.buyMore': 'Buy 5',
+  'port.sell': 'Sell {price}',
+  'port.sellAll': 'Sell all',
+  'port.cheap': 'Cheap here!',
+  'port.wanted': 'Wanted here!',
+  'port.wantedIn': 'Wanted in: {ports}',
+  'port.repair': 'Repair ship ({cost})',
+  'port.shipOk': 'Your ship is in great shape',
+  'port.leave': 'Set sail',
+  'port.wants': 'Wants:',
+
+  'trade.noGold': 'Not enough gold!',
+  'trade.cargoFull': 'Your ship is full!',
+  'trade.soldOut': 'Sold out here!',
+  'trade.nothingToSell': 'You have none of that on board.',
+
+  'msg.pirates': 'Pirates! Your cannons fire by themselves when a pirate is beside your ship.',
+  'msg.pirateSunk': 'Pirate ship defeated! Grab the treasure chest!',
+  'msg.treasure': 'Treasure! +{amount} gold',
+  'msg.repaired': 'Your ship is repaired!',
+  'msg.gift': 'The harbour master gives you {amount} gold to start again.',
+
+  'dialog.ok': 'OK',
+  'dialog.start': "Let's sail!",
+  'dialog.welcome.title': 'Ahoy, captain!',
+  'dialog.welcome.p1': 'You are a merchant with your own ship. Buy goods where they are cheap and sell them where people want them.',
+  'dialog.welcome.p2': 'Tap or click on the sea to sail there. Tap on a port to sail into it.',
+  'dialog.welcome.p3': 'Watch out for pirates with black sails! Your cannons fire by themselves. Near a port you are always safe.',
+  'dialog.welcome.p4': 'Collect {amount} gold to become the richest merchant of the Caribbean!',
+  'dialog.defeat.title': 'Oh no!',
+  'dialog.defeat.body': 'The pirates took your cargo and {gold} gold. A friendly ship towed you to {port} and repaired your ship.',
+  'dialog.goal.title': 'You are rich!',
+  'dialog.goal.body': 'You collected {amount} gold and are now the richest merchant of the Caribbean! You can keep sailing and trading.',
+};
+
+export type MessageKey = keyof typeof en;
