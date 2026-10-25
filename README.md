@@ -1,4 +1,4 @@
-# Pirates of the Caribbean
+# Caribbean Privateer
 
 A colourful, child-friendly (6+) 2D isometric trading game: sail between procedurally generated Caribbean islands, buy goods cheap, sell them where they are wanted, and fend off pirates. Runs in any modern desktop or mobile browser; English, German and Russian.
 

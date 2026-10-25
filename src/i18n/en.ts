@@ -1,6 +1,6 @@
 /** English is the reference catalog: every other language must define exactly these keys. */
 export const en = {
-  'game.title': 'Pirates of the Caribbean',
+  'game.title': 'Caribbean Privateer',
 
   'lang.label': 'Language',
 

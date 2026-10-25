@@ -1,6 +1,6 @@
 {
-  "name": "Pirates of the Caribbean",
-  "short_name": "Pirates",
+  "name": "Caribbean Privateer",
+  "short_name": "Privateer",
   "start_url": "./",
   "display": "fullscreen",
   "orientation": "any",

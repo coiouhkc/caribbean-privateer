@@ -1,4 +1,4 @@
-# Pirates of the Caribbean: follow-up design
+# Caribbean Privateer: follow-up design
 
 Features that were deliberately left out of iteration 1 (see [DESIGN.md](DESIGN.md)), with a proposed design for later implementation. Values are starting points for tuning.
 

@@ -1,7 +1,7 @@
 import type { MessageKey } from './en';
 
 export const de: Record<MessageKey, string> = {
-  'game.title': 'Piraten der Karibik',
+  'game.title': 'Karibik-Freibeuter',
 
   'lang.label': 'Sprache',
 

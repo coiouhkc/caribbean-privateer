@@ -1,7 +1,7 @@
 import type { MessageKey } from './en';
 
 export const ru: Record<MessageKey, string> = {
-  'game.title': 'Пираты Карибского моря',
+  'game.title': 'Карибский капер',
 
   'lang.label': 'Язык',
 
